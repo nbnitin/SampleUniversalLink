@@ -31,3 +31,11 @@ add below code to that json
 
 e.x.
 {"applinks":{"apps":[],"details":[{"appID":"KKKKKKKKKK.com.xyz","paths":["*","/"]}]}}
+
+# To Test in simulator
+Run app in simulator, send it to background
+open terminal and run the command
+
+xcrun simctl openurl booted "https://www.xyz.com"
+
+
