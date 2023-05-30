@@ -24,6 +24,8 @@ Don't forget to set your target's CODE_SIGN_ENTITLEMENTS build setting to be the
 Create a JSON file without extension with named 
 apple-app-site-association
 
+and upload this apple file to your hosted server and keep it in under either .well-known or in root folder of website
+
 add below code to that json
 {"applinks":{"apps":[],"details":[{"appID":"TEAM_ID.BUNDLE_IDENTIFIER","paths":["*","/"]}]}}
 
